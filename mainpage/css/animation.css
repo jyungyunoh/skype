@@ -1,0 +1,103 @@
+@keyframes earth {
+    0%{
+        top: 129px;
+        left: 5px;
+    }
+    3% {
+        top: 105px;
+        left: 34px;
+    }
+    5%{
+        top: 93px;
+        left: 52px;
+    }
+    10%{
+        top: 70px;
+        left: 100px;
+    }
+    15%{
+        top: 45px;
+        left: 156px;
+    }
+    20%{
+        top: 24px;
+        left: 207px;
+    }
+    25%{
+        top: 13px;
+        left: 263px;
+    }
+    30%{
+        top: 8px;
+        left: 333px;
+    }
+    35%{
+        top: 26px;
+        left: 375px;    
+    }
+    45%{
+        top: 72px;
+        left: 367px;
+        opacity: 0.8;
+    }
+    50%{
+        top: 103px;
+        left: 326px;
+        opacity: 0.3;
+    }
+    60% {
+        top: 120px;
+        left: 302px;
+        opacity: 0;
+    }
+    80% {
+        top: 205px;
+        left: 64px;
+        opacity: 0;
+    }
+    90% {
+        top: 222px;
+        left: 28px;
+    }
+    95% {
+        top: 210px;
+        left: -43px;
+    }
+    100%{
+        top: 147px;
+        left: -19px;
+        opacity: 1;
+    }
+}
+
+@keyframes mess {
+    0%{
+        top: 165px;
+        right: 25%;
+        opacity: 0;
+    }
+    15% {
+        top: 165px;
+        right: 25%;
+        opacity: 0.3;
+    }
+    50%{
+        top: 150px;
+        right: 25%;
+        opacity: 1;
+    }
+    80%{
+        top: 160px;
+        right: 25%;
+        opacity: 0.5;
+    }
+    90%{
+        top: 165px;
+        right: 25%;
+        opacity: 0.3;
+    }
+    100% {
+        top: 172px;
+        opacity: 0.1;
+    }
+}

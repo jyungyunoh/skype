@@ -1,0 +1,271 @@
+h3.sB {
+    color: #116694c5;
+}
+.contentSub2 {
+    /* width: 1080px; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.con2 dl {
+    /* border: 1px solid lime; */
+    margin-left: 80px;
+}
+.con1 {
+    /* margin: 0 auto;
+    position: relative;
+    width: 1000px;
+     */
+    /* border: 1px solid red; */
+    margin-bottom: 120px;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.con1 dl {
+    display: flex;
+    margin-top: 50%;
+    width: 500%;
+}
+.con1 dd{
+    /* border: 1px solid lime; */
+    width: 100%;
+}
+
+.con1 dt {
+    display: none;
+}
+.con1>dl>dd .illu{
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+
+.con1>dl>dd .illu>img {
+    /* border: 1px solid black; */
+    width: 250px;
+}
+.con1 a>.illu {
+    display: flex;
+    flex-direction: column;
+    
+}
+.con1 dt img{
+    border-radius: 40%;
+    background: rgba(68, 205, 242, 0.1);
+    padding: 10px;
+}
+
+.con1 dt:hover img {
+    background: white;
+    border: 2px solid #6bd9f7;
+}
+
+/* display none */
+.con1>dl>dd .a,.b,.c,.d,.e {
+
+    /* border: 1px solid brown; */
+    width: 100%;
+}
+.con1>dl>dd .illu>img{
+    /* border: 1px solid red; */
+    width: 180px;
+    /* margin-left: calc(50% - (180px/2)); */
+}
+.con1>dl>dd:nth-of-type(2) .illu>img {
+    height: 200px;
+}
+
+.con1>dl>dd:nth-of-type(5)>.illu img {
+    /* border: 1px solid blue; */
+    width: 240px;
+}
+.con1 dt.on+dd{
+    /* display: flex; */
+}
+
+.con2 dl dt{
+    display: none;
+}
+.con2 dt.on+dd{
+    /* display: flex; */
+}
+
+.con3 dl dt{display: none;}
+/* .con3 dt.on+dd{display: flex;} */
+
+
+/* img size/position */
+
+.con1 dd:nth-of-type(2) .illu img{
+    /* border: 1px solid red; */
+    max-height: 70%;
+    /* margin-left: 50px; */
+}
+
+
+.con1 dd .word{
+    /* border: 1px solid lime; */
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.con1 dd .word h1{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.con1 dd .word h1 img {
+    /* border: 1px solid red; */
+    /* top: 100px; */
+    position: absolute;
+    width: 15px;
+    margin-left: 5px;
+}
+.con1 dd .word h3 {
+    /* border: 1px solid red; */
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.con1 dd .word p {
+    line-height: 22px;
+    font-size: 11px;
+    width: 180px;
+}
+.con1 dd .word br {
+    display: none;
+}
+.con1>dl>dd>.a>.word>h1{
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    display: block;
+    /* border: 1px solid red; */
+}
+.con1 .word h1 {
+    display: none;
+}
+/* content2 */
+.con2 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+.con2>dl {
+    display: flex;
+    width: 200%;
+    margin-top: 50%;
+}
+.con2 dd {
+    width: 100%;
+}
+.con2 .word>h1>img {
+    width: 25px;
+    margin-left: 5px;
+    transform: translateY(2px);
+    /* border: 1px solid red; */
+}
+.con2>dl>dd .illu>img{
+    /* border: 1px solid red; */
+    width: 180px;
+}
+.con2>dl>dd>.word>h1{
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    display: block;
+    /* border: 1px solid red; */
+}
+.con2 .word {
+    /* border: 1px solid red; */
+    width: 180px;
+    margin-top: 20px;
+}
+.con2 .word h3 {
+    margin-bottom: 10px;
+}
+.con2 .word>p {
+    font-size: 10px;
+    line-height: 20px;
+}
+.con2 .word>p>br {
+    display: none;
+}
+/* content3 */
+.con3 {
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid red; */
+    position: relative;
+    overflow: hidden;
+}
+
+.con3 dl{
+    /* border: 1px solid red; */
+    width: 400%;
+    display: flex;
+    
+}
+.con3>dl>dd {
+    width: 100%;
+}
+.con3>dl>dd .word{
+    width: 180px;
+    margin-top: 20px;
+    line-height: 20px;
+    /* border: 1px solid red; */
+}
+.con3>dl>dd .word>p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.con3>dl>dd .word br{
+    display: none;
+}
+.con3>dl>dd{
+    /* border: 1px solid lime; */
+}
+.con3>dl>dd>#a,#b,#c,#d {
+    /* border: 1px solid red; */
+    width: 200px;
+    margin-left: calc(50% - (100px));
+    margin-top: calc(70% - (202px/2));
+
+}
+.con3>dl>dd:nth-of-type(4) .illu>img{
+    width: 80px;
+    /* border: 1px solid rebeccapurple; */
+    margin-left: calc(50% - 40px);
+}
+.con3>dl>dd .word>h1{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    display: block;
+    /* border: 1px solid red; */
+}
+/* dt */
+
+
+
+/* content on */
+.con1 dl>dt.on img {
+    background: white;
+    border: none;
+}
+.con2 dl>dt.on img {
+    background: white;
+    border: none;
+}
+.con3 dl>dt.on img {
+    background: white;
+    border: none;
+}
+.con3>dl>dd .illu>img{
+    /* border: 1px solid red; */
+    width: 180px;
+}
